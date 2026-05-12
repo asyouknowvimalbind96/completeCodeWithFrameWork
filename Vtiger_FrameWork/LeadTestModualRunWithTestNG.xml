@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuit1">
+ <test name="TestCasesPractice1">
+  <classes>
+   <class name="org.Eva.Vtiger.TestCases.LeadsModualTestCases"></class>
+  </classes>   
+     </test>
+</suite>
+

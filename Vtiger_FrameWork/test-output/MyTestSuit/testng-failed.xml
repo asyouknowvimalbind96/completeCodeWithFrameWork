@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestCasesPractice(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.Eva.Vtiger.TestCases.LeadsModualTestCases">
+        <methods>
+          <include name="signOutVtiger"/>
+          <include name="closeBrowser"/>
+          <include name="TC_SMOKE_01_Verify_User_Login_With_Valid_Credentials"/>
+          <include name="beforeMethodLogin"/>
+          <include name="TC_SMOKE_02_Verify_Create_Lead_With_Valid_Data"/>
+          <include name="TC_SMOKE_03_Verify_Leads_List_Page_Load_Successfully"/>
+          <include name="TC_SMOKE_04_Verify_User_Logout_Functionality"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- org.Eva.Vtiger.TestCases.LeadsModualTestCases -->
+    </classes>
+  </test> <!-- TestCasesPractice(failed) -->
+</suite> <!-- Failed suite [MyTestSuit] -->

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PracticeTestCases">
+<test name="myTestCases">
+<groups>
+<run>
+<include name="smoke"></include>
+</run>
+</groups>
+<classes>
+
+<class name="org.Eva.Vtiger.TestCases.TestCases"></class>
+
+</classes>
+
+</test>
+</suite>

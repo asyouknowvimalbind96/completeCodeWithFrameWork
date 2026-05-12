@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.Eva.Vtiger.TestCases.LeadsModualTestCases">
+        <methods>
+          <include name="signOutVtiger"/>
+          <include name="closeBrowser"/>
+          <include name="beforeMethodLogin"/>
+          <include name="TC_REG_03_Verify_Edit_Existing_Lead_Details"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- org.Eva.Vtiger.TestCases.LeadsModualTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
