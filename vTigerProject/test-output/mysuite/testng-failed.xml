@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mysuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="my test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScripts.LeadTestCase">
+        <methods>
+          <include name="TC004_invalidLogin"/>
+          <include name="TC003_invalidLogin"/>
+          <include name="TC005_invalidLogin"/>
+          <include name="TC007_verifyHomePageAndValidateLead"/>
+          <include name="TC006_invalidLogin"/>
+          <include name="TC009_verifyCreateNewLeadPageAndCreate"/>
+        </methods>
+      </class> <!-- testScripts.LeadTestCase -->
+    </classes>
+  </test> <!-- my test(failed) -->
+</suite> <!-- Failed suite [mysuite] -->
